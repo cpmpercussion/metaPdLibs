@@ -14,9 +14,9 @@
 #X obj 36 162 print;
 #X obj 36 119 loadbang;
 #X msg 36 140 loaded metaPdLibs;
-#X obj 162 139 declare -path control;
-#X obj 164 159 declare -path fx;
-#X obj 162 180 declare -path instrument;
-#X obj 161 204 declare -path scales;
+#X obj 263 31 declare -path control;
+#X obj 265 51 declare -path fx;
+#X obj 263 72 declare -path instrument;
+#X obj 262 96 declare -path scales;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
