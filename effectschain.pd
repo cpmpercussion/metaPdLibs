@@ -1,0 +1,15 @@
+#N canvas 374 183 649 563 10;
+#X declare -path metaPdLibs/control;
+#X declare -path metaPdLibs/fx;
+#X declare -path metaPdLibs/instrument;
+#X declare -path metaPdLibs/scales;
+#X declare -path control;
+#X declare -path fx;
+#X declare -path instrument;
+#X declare -path scales;
+#X obj 33 12 loadMetaPdLibs;
+#X obj 31 57 adc~;
+#X obj 29 139 dac~;
+#X obj 34 100 graindelay~;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;
